@@ -13,7 +13,10 @@ const main = async () => {
           type: "limit",
           clientOid: "61ba53e234b3b9000160a97f",
         },
-        { size: "1" }
+        {
+          size: "1",
+          price: "0.02",
+        }
       );
       end_time = new Date().getTime();
       console.log(end_time - start_time);
