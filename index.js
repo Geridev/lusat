@@ -9,13 +9,13 @@ const main = async () => {
       const client = await API.rest.Trade.Orders.postOrder(
         {
           side: "buy",
-          symbol: "BTC-USDT",
+          symbol: "REVU-USDT",
           type: "limit",
           clientOid: "61ba53e234b3b9000160a97f",
         },
         {
-          size: "1",
-          price: "0.02",
+          size: "580",
+          price: "0.24",
         }
       );
       end_time = new Date().getTime();
